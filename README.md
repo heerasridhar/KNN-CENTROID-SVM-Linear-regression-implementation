@@ -10,16 +10,15 @@ data set: ATNT-face-image400.txt  :
 
 Total 40 classes. each class has 10 images. Total 40*10=400 images
 
-----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
 data set: Hand-written-26-letters.txt :
 
 Text file. 
 1st row is cluster labels. 
 2nd-end rows: each column is a feature vectors (vector length=20x16).
+Total 26 classes and each class has 39 images. Total 26*39=1014 images.
 
-Total 26 classes. each class has 39 images. Total 26*39=1014 images.
------------------------------------------------------------------------------------------
 
 The following tasks were performed:
 
@@ -71,5 +70,5 @@ subroutine-3:
    and store (testX,testY) into a test data file. The format of these files is determined by 
    
 Subroutine-4: "letter_2_digit_convert" that converts a character string to an integer array. 
-   For example ,letter_2_digit_convert('ACFG') returns array (1, 3, 6, 7). 
+   For example,letter_2_digit_convert('ACFG') returns array (1, 3, 6, 7). 
    

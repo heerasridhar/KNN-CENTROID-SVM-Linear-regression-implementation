@@ -1,5 +1,4 @@
-# KNN-CENTROID-SVM-Linear-regression-implementation
-Knn, Centroid, SVM, Linear Regression Implementation (Python, Spyder)
+# K-nearest neighbours-Centroid-Support vector machine-Linear-regression-implementation
 
 There are two datasets ATNT-face-image400 and Hand-written-26-letters.
 
